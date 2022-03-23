@@ -1,0 +1,46 @@
+<style>
+h1{
+font-size:100px;
+
+}
+body {        
+    background: url(instruments.jpg);
+    background-size: cover;
+}
+#img-container{
+display:flex;
+}
+#img-1{
+width:200px;
+height:200px;
+padding-left:200px;
+padding-top:200px;
+}
+#img-2{
+width:200px;
+height:200px;
+padding-left:200px;
+padding-top:200px;
+}
+#img-3{
+width:200px;
+height:200px;
+padding-left:200px;
+padding-top:200px;
+}
+#box-container{
+display:flex;
+}
+#box-1{
+padding-left:250px;
+}
+#box-2{
+padding-left:300px;
+font-size:25px
+}
+#box-3{
+padding-left:300px;
+font-size:20px
+}
+
+</style>

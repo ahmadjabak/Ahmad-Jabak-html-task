@@ -1,0 +1,176 @@
+ <style> 
+* {
+                font-family: Poppins;
+            }
+            body {
+                background-color: black;
+            }
+            .bg-top {
+                margin: auto;
+                margin-bottom: 10px;
+                background-image: url(earth.jpg);
+                height: 250px;
+                width: 75%;
+            }
+            .bg-top #title {
+                color: #fff;
+                padding-top: 50px;
+                padding-left: 75px;
+                font-weight: 300;
+            }
+            .bg-top #slogan {
+                color: #fff;
+                padding-left: 75px;
+                font-weight: 300;
+            }
+            .menu-bar {
+                background-color: #6e7f7d;
+                width: 1000px;
+                height: 40px;
+                margin: auto;
+            }
+            .menu {
+                list-style: none;
+                margin: auto;
+                width: 900px;
+                padding-top: 7px;
+            }
+            .menu-bar .menu menuitem {
+                display: inline;
+                width: 150px;
+                border-left: 1px solid #f7f7f7;
+            }
+            .menu-bar .menu a {
+                display: inline;
+                padding: 10px;
+                padding-left: 30px;
+                padding-right: 30px;
+                text-decoration: none;
+                color: #fff;
+            }
+            .menu-bar .menu a:hover {
+                cursor: pointer;
+            }
+            .para1 {
+                position: absolute;
+                height: 300px;
+                width: 200px;
+                transform: translateX(180px);
+            }
+            .para1 h2{
+                color: #fff;
+                padding-left: 40px;
+            }
+            .para1 ul li {
+                color: #fff;
+                text-decoration: underline;
+                text-decoration-color: #fff;
+                font-weight: 200;
+            }
+            .para2 {
+                position: absolute;
+                height: 250px;
+                width: 675px;
+                transform: translateX(500px);
+            }
+            .para2 h2 {
+                color: #fff;
+                font-weight: 300;
+            }
+            .para2 p {
+                color: #fff;
+                font-weight: 200;
+            }
+            .para3 {
+                position: absolute;
+                height: 250px;
+                width: 200px;
+                transform: translateX(180px) translateY(275px);
+                padding-left: 20px;
+            }
+            .para3 h2 {
+                color: #fff;
+                padding-left: 10px;
+            }
+            .para3 h5 {
+                color: #fff;
+                font-weight: 300;
+            }
+            .para4 {
+                position: absolute;
+                width: 675px;
+                height: 300px;
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                grid-column-gap: 40px;
+                transform: translateX(500px) translateY(250px);
+            }
+            .para4 .left h2 {
+                color: #fff;
+                font-weight: 300;
+            }       
+            .para4 .left p {
+                color: #fff;
+                font-weight: 300;
+            }
+            .para4 .left div {
+                background-color: azure;
+                height: 30px;
+                width: 90px;
+                padding-top: 10px;
+                padding-left: 15px;
+            }
+            .para4 .left div a {
+                text-decoration: none;
+                color: #000;
+            }
+            .para4 .right h2 {
+                color: #fff;
+                font-weight: 300;
+            }       
+            .para4 .right p {
+                color: #fff;
+                font-weight: 300;
+            }
+            .para4 .right div {
+                background-color: azure;
+                height: 30px;
+                width: 90px;
+                padding-top: 10px;
+                padding-left: 15px;
+            }
+            .para4 .right div a {
+                text-decoration: none;
+                color: #000;
+            }
+            footer {
+                height: 500px;
+                border-top: 1px solid #485f65;
+                transform: translateY(550px);
+            }
+            footer h6 {
+                color: #fff;
+                font-weight: 300;
+            }
+            footer form {
+                color: #fff;
+                height: 50px;
+                width: 1000px;
+                margin-left: 350px;
+            }
+            footer form .submit {
+                margin-left: 50px;
+                height: 40px;
+                width: 100px;
+                color: #000;
+                font-weight: 600;
+                background-color: azure;
+                border: none;
+                border-radius: 5px;
+                transform: translateX(225px) translateY(-50px);
+                cursor: pointer;
+            }
+            footer form .radio {
+                transform: translateX(500px) translateY(-200px);
+            }
+</style>
